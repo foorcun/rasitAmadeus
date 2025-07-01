@@ -1,0 +1,473 @@
+{
+    "audit": {
+      "test": true,
+      "reference": "eebecddc-665f-43eb-9528-6bbec3536a26",
+      "request_ip": "127.0.0.1",
+      "service": "search",
+      "timestamp": "2025-06-23 21:52:35"
+    },
+    "result": {
+      "departure_flights": [
+        {
+          "provider_key": "IK Global",
+          "package_info": {
+            "packaged": false,
+            "package_key": "ebe5a6bb-056d-4441-be64-fdd573904277"
+          },
+          "legs": [
+            {
+              "flight_number": "IA107",
+              "departure_info": {
+                "airport_code": "EBL",
+                "date": "2025-06-29 05:00:00",
+                "airport_name": "EBL Airport",
+                "city_name": "EBL"
+              },
+              "arrival_info": {
+                "airport_code": "DXB",
+                "date": "2025-06-29 08:25:00",
+                "airport_name": "DXB Airport",
+                "city_name": "DXB"
+              },
+              "time_info": {
+                "leg_duration_time_minute": 205,
+                "wait_time_in_minute_before_next_leg": 0,
+                "flight_time_hour": 0,
+                "flight_time_minute": 0,
+                "layover_time_in_minutes": 0,
+                "day_cross": false
+              },
+              "airline_info": {
+                "carrier_code": "IA",
+                "carrier_name": "IA",
+                "operator_code": "IA",
+                "operator_name": "IA",
+                "operating_airline_code": "IA"
+              },
+              "baggages": [
+                {
+                  "amount": 15,
+                  "type": "UNKNOWN",
+                  "alternative_type": "KG",
+                  "class_code": "S",
+                  "passenger_type": "ADULT"
+                },
+                {
+                  "amount": 15,
+                  "type": "UNKNOWN",
+                  "alternative_type": "KG",
+                  "class_code": "S",
+                  "passenger_type": "CHILD"
+                },
+                {
+                  "amount": 10,
+                  "type": "UNKNOWN",
+                  "alternative_type": "KG",
+                  "class_code": "S",
+                  "passenger_type": "INFANT"
+                }
+              ],
+              "cabin_baggages": [
+                {
+                  "amount": 1,
+                  "type": "PIECE",
+                  "alternative_type": "P",
+                  "class_code": "S",
+                  "passenger_type": "ADULT"
+                },
+                {
+                  "amount": 1,
+                  "type": "PIECE",
+                  "alternative_type": "P",
+                  "class_code": "S",
+                  "passenger_type": "CHILD"
+                },
+                {
+                  "amount": 1,
+                  "type": "PIECE",
+                  "alternative_type": "P",
+                  "class_code": "S",
+                  "passenger_type": "INFANT"
+                }
+              ]
+            }
+          ],
+          "fares": [
+            {
+              "fare_key": "42455fd6-03d4-419e-a5dc-08f2305a76d4",
+              "fare_info": {
+                "class_codes": [
+                  "Y"
+                ],
+                "cabin_types": [
+                  "ECONOMY"
+                ],
+                "fare_detail": {
+                  "currency_code": "IQD",
+                  "price_info": {
+                    "total_fare": 809465.2,
+                    "base_fare": 773520,
+                    "service_fee": 0,
+                    "agency_commission": 0,
+                    "tax": 35945.2,
+                    "supplement": 0
+                  },
+                  "pax_fares": [
+                    {
+                      "currency_code": "IQD",
+                      "price_info": {
+                        "total_fare": 809465.2,
+                        "base_fare": 773520,
+                        "service_fee": 0,
+                        "agency_commission": 0,
+                        "tax": 35945.2,
+                        "supplement": 0
+                      },
+                      "pax_type": "ADULT",
+                      "number_of_pax": 1,
+                      "baggage_allowances": [
+                        {
+                          "amount": 15,
+                          "type": "UNKNOWN",
+                          "alternative_type": "KG",
+                          "class_code": "S",
+                          "departure_airport": "EBL",
+                          "arrival_airport": "BGW",
+                          "carrier": "IA",
+                          "flight_number": "IA107"
+                        }
+                      ],
+                      "cabin_baggage_allowances": [
+                        {
+                          "amount": 1,
+                          "type": "PIECE",
+                          "alternative_type": "P",
+                          "class_code": "S",
+                          "departure_airport": "EBL",
+                          "arrival_airport": "BGW",
+                          "carrier": "IA",
+                          "flight_number": "IA107"
+                        }
+                      ]
+                    },
+                    {
+                      "currency_code": "IQD",
+                      "price_info": {
+                        "total_fare": 607098.9,
+                        "base_fare": 580140,
+                        "service_fee": 0,
+                        "agency_commission": 0,
+                        "tax": 26958.9,
+                        "supplement": 0
+                      },
+                      "pax_type": "CHILD",
+                      "number_of_pax": 1,
+                      "baggage_allowances": [
+                        {
+                          "amount": 15,
+                          "type": "UNKNOWN",
+                          "alternative_type": "KG",
+                          "class_code": "S",
+                          "departure_airport": "EBL",
+                          "arrival_airport": "BGW",
+                          "carrier": "IA",
+                          "flight_number": "IA107"
+                        }
+                      ],
+                      "cabin_baggage_allowances": [
+                        {
+                          "amount": 1,
+                          "type": "PIECE",
+                          "alternative_type": "P",
+                          "class_code": "S",
+                          "departure_airport": "EBL",
+                          "arrival_airport": "BGW",
+                          "carrier": "IA",
+                          "flight_number": "IA107"
+                        }
+                      ]
+                    },
+                    {
+                      "currency_code": "IQD",
+                      "price_info": {
+                        "total_fare": 80946.52,
+                        "base_fare": 77352,
+                        "service_fee": 0,
+                        "agency_commission": 0,
+                        "tax": 3594.52,
+                        "supplement": 0
+                      },
+                      "pax_type": "INFANT",
+                      "number_of_pax": 1,
+                      "baggage_allowances": [
+                        {
+                          "amount": 10,
+                          "type": "UNKNOWN",
+                          "alternative_type": "KG",
+                          "class_code": "S",
+                          "departure_airport": "EBL",
+                          "arrival_airport": "BGW",
+                          "carrier": "IA",
+                          "flight_number": "IA107"
+                        }
+                      ],
+                      "cabin_baggage_allowances": [
+                        {
+                          "amount": 1,
+                          "type": "PIECE",
+                          "alternative_type": "P",
+                          "class_code": "S",
+                          "departure_airport": "EBL",
+                          "arrival_airport": "BGW",
+                          "carrier": "IA",
+                          "flight_number": "IA107"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "free_seats": 9
+              }
+            }
+          ],
+          "office": {
+            "office_id": 3188,
+            "office_name": "IK Global Office"
+          },
+          "book_type": "DIRECT",
+          "charter": false
+        }
+      ],
+      "return_flights": [
+        {
+          "provider_key": "IK Global",
+          "package_info": {
+            "packaged": false,
+            "package_key": "e511acb3-86ea-4415-a090-e74a53962f4f"
+          },
+          "legs": [
+            {
+              "flight_number": "IA123",
+              "departure_info": {
+                "airport_code": "BGW",
+                "date": "2025-06-25 06:20:00",
+                "airport_name": "BGW Airport",
+                "city_name": "BGW"
+              },
+              "arrival_info": {
+                "airport_code": "DXB",
+                "date": "2025-06-25 09:50:00",
+                "airport_name": "DXB Airport",
+                "city_name": "DXB"
+              },
+              "time_info": {
+                "leg_duration_time_minute": 210,
+                "wait_time_in_minute_before_next_leg": 0,
+                "flight_time_hour": 0,
+                "flight_time_minute": 0,
+                "layover_time_in_minutes": 0,
+                "day_cross": false
+              },
+              "airline_info": {
+                "carrier_code": "IA",
+                "carrier_name": "IA",
+                "operator_code": "IA",
+                "operator_name": "IA",
+                "operating_airline_code": "IA"
+              },
+              "baggages": [
+                {
+                  "amount": 15,
+                  "type": "UNKNOWN",
+                  "alternative_type": "KG",
+                  "class_code": "S",
+                  "passenger_type": "ADULT"
+                },
+                {
+                  "amount": 15,
+                  "type": "UNKNOWN",
+                  "alternative_type": "KG",
+                  "class_code": "S",
+                  "passenger_type": "CHILD"
+                },
+                {
+                  "amount": 10,
+                  "type": "UNKNOWN",
+                  "alternative_type": "KG",
+                  "class_code": "S",
+                  "passenger_type": "INFANT"
+                }
+              ],
+              "cabin_baggages": [
+                {
+                  "amount": 1,
+                  "type": "PIECE",
+                  "alternative_type": "P",
+                  "class_code": "S",
+                  "passenger_type": "ADULT"
+                },
+                {
+                  "amount": 1,
+                  "type": "PIECE",
+                  "alternative_type": "P",
+                  "class_code": "S",
+                  "passenger_type": "CHILD"
+                },
+                {
+                  "amount": 1,
+                  "type": "PIECE",
+                  "alternative_type": "P",
+                  "class_code": "S",
+                  "passenger_type": "INFANT"
+                }
+              ]
+            }
+          ],
+          "fares": [
+            {
+              "fare_key": "3cc7bdd9-8e34-48ba-9508-5777c80a6214",
+              "fare_info": {
+                "class_codes": [
+                  "Y"
+                ],
+                "cabin_types": [
+                  "ECONOMY"
+                ],
+                "fare_detail": {
+                  "currency_code": "IQD",
+                  "price_info": {
+                    "total_fare": 809465.2,
+                    "base_fare": 773520,
+                    "service_fee": 0,
+                    "agency_commission": 0,
+                    "tax": 35945.2,
+                    "supplement": 0
+                  },
+                  "pax_fares": [
+                    {
+                      "currency_code": "IQD",
+                      "price_info": {
+                        "total_fare": 809465.2,
+                        "base_fare": 773520,
+                        "service_fee": 0,
+                        "agency_commission": 0,
+                        "tax": 35945.2,
+                        "supplement": 0
+                      },
+                      "pax_type": "ADULT",
+                      "number_of_pax": 1,
+                      "baggage_allowances": [
+                        {
+                          "amount": 15,
+                          "type": "UNKNOWN",
+                          "alternative_type": "KG",
+                          "class_code": "S",
+                          "departure_airport": "BGW",
+                          "arrival_airport": "EBL",
+                          "carrier": "IA",
+                          "flight_number": "IA123"
+                        }
+                      ],
+                      "cabin_baggage_allowances": [
+                        {
+                          "amount": 1,
+                          "type": "PIECE",
+                          "alternative_type": "P",
+                          "class_code": "S",
+                          "departure_airport": "BGW",
+                          "arrival_airport": "EBL",
+                          "carrier": "IA",
+                          "flight_number": "IA123"
+                        }
+                      ]
+                    },
+                    {
+                      "currency_code": "IQD",
+                      "price_info": {
+                        "total_fare": 607098.9,
+                        "base_fare": 580140,
+                        "service_fee": 0,
+                        "agency_commission": 0,
+                        "tax": 26958.9,
+                        "supplement": 0
+                      },
+                      "pax_type": "CHILD",
+                      "number_of_pax": 1,
+                      "baggage_allowances": [
+                        {
+                          "amount": 15,
+                          "type": "UNKNOWN",
+                          "alternative_type": "KG",
+                          "class_code": "S",
+                          "departure_airport": "BGW",
+                          "arrival_airport": "EBL",
+                          "carrier": "IA",
+                          "flight_number": "IA123"
+                        }
+                      ],
+                      "cabin_baggage_allowances": [
+                        {
+                          "amount": 1,
+                          "type": "PIECE",
+                          "alternative_type": "P",
+                          "class_code": "S",
+                          "departure_airport": "BGW",
+                          "arrival_airport": "EBL",
+                          "carrier": "IA",
+                          "flight_number": "IA123"
+                        }
+                      ]
+                    },
+                    {
+                      "currency_code": "IQD",
+                      "price_info": {
+                        "total_fare": 80946.52,
+                        "base_fare": 77352,
+                        "service_fee": 0,
+                        "agency_commission": 0,
+                        "tax": 3594.52,
+                        "supplement": 0
+                      },
+                      "pax_type": "INFANT",
+                      "number_of_pax": 1,
+                      "baggage_allowances": [
+                        {
+                          "amount": 10,
+                          "type": "UNKNOWN",
+                          "alternative_type": "KG",
+                          "class_code": "S",
+                          "departure_airport": "BGW",
+                          "arrival_airport": "EBL",
+                          "carrier": "IA",
+                          "flight_number": "IA123"
+                        }
+                      ],
+                      "cabin_baggage_allowances": [
+                        {
+                          "amount": 1,
+                          "type": "PIECE",
+                          "alternative_type": "P",
+                          "class_code": "S",
+                          "departure_airport": "BGW",
+                          "arrival_airport": "EBL",
+                          "carrier": "IA",
+                          "flight_number": "IA123"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "free_seats": 9
+              }
+            }
+          ],
+          "office": {
+            "office_id": 3188,
+            "office_name": "IK Global Office"
+          },
+          "book_type": "DIRECT",
+          "charter": false
+        }
+      ]
+    }
+  }

@@ -1,0 +1,48 @@
+{
+  "name": "iraq-airlines-amadeus-ndc-prime-booking-cash",
+  "version": "1.0.0",
+  "description": "Iraq Airlines Amadeus NDC Prime Booking 21.3 - Cash Biletleme Uygulaması",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "example": "node examples/booking-example.js",
+    "test": "node examples/booking-example.js",
+    "test:single": "node test-airshopping.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "amadeus",
+    "ndc",
+    "prime-booking",
+    "iraq-airlines",
+    "cash-booking",
+    "soap",
+    "ws-security",
+    "airline-booking"
+  ],
+  "author": "Iraq Airlines Development Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "axios-cookiejar-support": "^5.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "tough-cookie": "^4.1.4",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iraq-airlines/amadeus-ndc-prime-booking-cash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iraq-airlines/amadeus-ndc-prime-booking-cash/issues"
+  },
+  "homepage": "https://github.com/iraq-airlines/amadeus-ndc-prime-booking-cash#readme"
+}
